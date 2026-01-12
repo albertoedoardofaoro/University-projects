@@ -3,7 +3,7 @@
 This folder contains a group project developed for a data-driven marketing course.  
 The goal of the project is to build a **scoring model** to support a bank’s upselling campaign by identifying customers who are more likely to accept a commercial offer.
 
-The analysis was carried out using a customer-level dataset with financial and behavioural indicators, and the model was implemented using **logistic regression**.
+The analysis was carried out using a customer-level dataset with financial and behavioural indicators, and the model was implemented using **logistic regression** in **R**.
 
 ---
 
