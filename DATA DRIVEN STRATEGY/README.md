@@ -9,7 +9,7 @@ The analysis was carried out using a customer-level dataset with financial and b
 
 ## Dataset
 
-The dataset contains information on **19,120 customers** and **35 variables**, including one binary target variable (`FLG_TARGET`) indicating whether a customer accepted the upselling offer :contentReference[oaicite:1]{index=1}.
+The dataset contains information on **19,120 customers** and **35 variables**, including one binary target variable (`FLG_TARGET`) indicating whether a customer accepted the upselling offer or not.
 
 The remaining variables consist of **key performance indicators (KPIs)** describing:
 - customers’ financial capacity (e.g. assets, inflows, movements),
@@ -37,7 +37,7 @@ The structure of the dataset was analysed by:
 - computing the average acceptance rate,
 - and inspecting the univariate distributions of selected numerical KPIs.
 
-This step was used to understand the scale and variability of the main predictors :contentReference[oaicite:2]{index=2}.
+This step was used to understand the scale and variability of the main predictors.
 
 ---
 
@@ -47,7 +47,7 @@ Data quality checks were performed to identify:
 - variables with a high proportion of missing values,
 - and sets of highly correlated predictors.
 
-Highly correlated variables were removed in order to avoid redundancy and instability in the model :contentReference[oaicite:3]{index=3}.
+Highly correlated variables were removed in order to avoid redundancy and instability in the model.
 
 ---
 
@@ -62,7 +62,7 @@ Model performance was evaluated using **ROC curves** and AUC on both training an
 ---
 
 ### 4. Variable selection
-Starting from the full model, variable selection was performed using a **stepwise procedure based on AIC** in order to remove predictors that did not contribute to the model while balancing fit and complexity :contentReference[oaicite:4]{index=4}.
+Starting from the full model, variable selection was performed using a **stepwise procedure based on AIC** in order to remove predictors that did not contribute to the model while balancing fit and complexity.
 
 ---
 
@@ -77,7 +77,7 @@ The quality of the ranking was evaluated using:
 - **cumulative lift charts**,
 - and **gain charts**,
 
-which compare the concentration of positive responses in the top-scoring groups to what would be obtained under random targeting :contentReference[oaicite:5]{index=5}.
+which compare the concentration of positive responses in the top-scoring groups to what would be obtained.
 
 ---
 
@@ -88,7 +88,7 @@ A marketing scenario was defined using assumptions on:
 - response rate,
 - contact costs.
 
-Using the score distribution and the lift values, cumulative revenues, costs, and profits were computed across ventiles to evaluate different targeting strategies :contentReference[oaicite:6]{index=6}.
+Using the score distribution and the lift values, cumulative revenues, costs, and profits were computed across ventiles to evaluate different targeting strategies.
 
 ---
 
@@ -98,6 +98,4 @@ This folder contains:
 - the data used for the analysis,
 - the scripts for model estimation and scoring,
 - and the presentation describing the full workflow.
-
----
 
