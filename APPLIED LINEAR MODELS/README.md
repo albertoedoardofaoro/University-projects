@@ -102,7 +102,3 @@ This folder contains:
 - and the final report knitted to pdf for full visualizations of the results.
 
 ---
-
-## Tools used
-
-- R
