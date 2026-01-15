@@ -1,6 +1,6 @@
 # Computer Vision – Parking Lot Occupancy Estimation
 
-This folder contains a deep learning project focused on the **automatic estimation of parking lot occupancy** from camera images.
+This folder contains a deep learning project focused on the **automatic estimation of parking lot occupancy** from camera images, developed in collaboration with my colleague @elisaquadrini
 
 The project uses a dataset of annotated parking lot images and implements two learning tasks:
 - a **regression task** to predict the number of occupied parking spaces in an image,
